@@ -1,0 +1,124 @@
+{
+  "assets": [
+    {
+      "path": "assets/favicon.svg",
+      "role": "project icon",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/framework.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/framework-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/depth-initialization.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/depth-initialization-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/continual-optimization.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/continual-optimization-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/replay-curves.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/replay-curves-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/water-failures.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/water-failures-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/photometric-results.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/photometric-results-preview.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/all-scenes.webp",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/all-scenes-preview.webp",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/sequential-observations.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/incremental-map.png",
+      "role": "diagram",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-results.png",
+      "role": "original paper table",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-forward.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-backward.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-vram.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-ram.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-local-gaussians.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    },
+    {
+      "path": "assets/images/runtime-global-gaussians.png",
+      "role": "runtime subplot",
+      "public_approved": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Private inputs and working records (never force-add)
+/materials/
+/notes/
+/PROJECT_BRIEF.md
+/.local-preview/
+
+# Local tools, credentials, environments and temporary files
+/.codex/
+/.vscode/
+/.idea/
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Export intermediates belong outside site/
+/dist/
+/tmp/
+
+# Local authoring instructions and unused template tools
+/AGENTS.md
+/docs/
+/prompts/
+/components/
+/requirements-export.txt
+/scripts/*
+!/scripts/check_site.py
+!/scripts/preview.py

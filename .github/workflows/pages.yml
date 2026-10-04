@@ -1,0 +1,38 @@
+name: Publish project page
+on:
+  push:
+    branches: [project_page]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/project_page'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Check release contents
+        run: python3 scripts/check_site.py --release
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload public files only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
